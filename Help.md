@@ -1,4 +1,5 @@
 Hiya, these are my dotfiles for macOS 26.
+**I VIBE CODED THE SHIT OUT OF EVERYTHING HERE, PLEASE DONT COMPLAIN WHEN NOTHING WORKS**
 Please keep these things in mind before cloning the repository:
 - all folders need to be in the .config directory (see hidden files with Shift+Cmd+.)
 - .zshrc is in the $USER directory
