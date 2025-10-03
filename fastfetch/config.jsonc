@@ -1,0 +1,54 @@
+{
+"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+"logo": {
+        "source": "/Users/sverrebesteman/.config/fastfetch/logos/Untitled.txt",
+        "padding": {
+          "top": 2,
+          "bottom": 2
+        },
+        "type": "auto",
+        "color": {
+        "1": "#8080d9"
+        }
+    },
+"display": {
+  "separator": ": ", 
+  "color": {
+    "keys": "#8080d9",
+    "title": "#8080d9"
+  },
+  "bar": {
+      "width": 10,       
+      "char.elapsed": "■", 
+      "char.total": "-"   
+    }
+},
+  "modules": [
+    "title",
+    "separator",
+  {
+  "type": "os",
+  "key": "OS",
+  "format": "{name} {version}"
+  },  
+    "host",
+    "cpu",
+    "gpu",
+  {
+  "type": "memory",
+  "key": "Memory",
+  "percent": {
+    "type": 2
+    }
+  },
+  {
+  "type": "disk",
+  "key": "Disk",
+  "percent": {
+    "type": 2
+    }
+  },
+    "localip",
+    "publicip"
+  ]
+} 
