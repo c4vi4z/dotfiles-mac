@@ -8,7 +8,7 @@ Please keep these things in mind before cloning the repository:
 - sillyman.zsh-theme is in $USER/.oh-my-zsh/themes
 - this is my first repository! please leave an issue/question for some tips :)
 - some config files are not changed, will change them in the future
--**I VIBE CODED THE SHIT OUT OF EVERYTHING HERE, PLEASE DONT COMPLAIN WHEN NOTHING WORKS**
+- **I VIBE CODED THE SHIT OUT OF EVERYTHING HERE, PLEASE DONT COMPLAIN WHEN NOTHING WORKS**
   
 Install the following packages, and change the dotfiles with mine:
 
