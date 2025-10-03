@@ -1,0 +1,28 @@
+Hiya, these are my dotfiles for macOS 26.
+Please keep these things in mind before cloning the repository:
+- all folders need to be in the .config directory (see hidden files with Shift+Cmd+.)
+- .zshrc is in the $USER directory
+- sillyman.zsh-theme is in $USER/.oh-my-zsh/themes
+- this is my first repository! please leave an issue/question for some tips :)
+- some config files are not changed, will change them in the future
+
+Install the following packages, and change the dotfiles with mine:
+
+First of all, enable XCode Command Line Tools with xcode-select --install
+Second of all, if you haven't already, install Homebrew with this command:
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+Let it do its thing, then install these packages:
+
+Oh My ZSH (https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+Alacritty (brew install --cask alacritty)
+JankyBorders (brew tap FelixKratz/formulae && brew install borders)
+btop (brew install btop)
+cava (https://github.com/karlstav/cava)
+fastfetch (brew install fastfetch)
+skhd (brew install koekeishiya/formulae/skhd)
+thefuck (brew install thefuck)
+yabai (https://github.com/koekeishiya/yabai)
+
+Please refer to these links for extra instructions ^^
+
+Thank you :D
