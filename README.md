@@ -23,6 +23,12 @@ fastfetch (brew install fastfetch)
 skhd (brew install koekeishiya/formulae/skhd)
 thefuck (brew install thefuck)
 yabai (https://github.com/koekeishiya/yabai)
+a nerd font which i forgot the name of, yes im stupid (either jetbrains or firacode)
+
+Optional:
+Raycast
+AltTab
+
 
 Please refer to these links for extra instructions ^^
 
