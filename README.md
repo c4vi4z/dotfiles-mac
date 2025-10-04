@@ -15,18 +15,20 @@ Install the following packages, and change the dotfiles with mine:
 First of all, enable XCode Command Line Tools with xcode-select --install
 Second of all, if you haven't already, install Homebrew with this command:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-Let it do its thing, then install these packages:
 
-- Oh My ZSH (https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
-- Alacritty (brew install --cask alacritty)
-- JankyBorders (brew tap FelixKratz/formulae && brew install borders)
-- btop (brew install btop)
-- cava (https://github.com/karlstav/cava)
-- fastfetch (brew install fastfetch)
-- skhd (brew install koekeishiya/formulae/skhd)
-- thefuck (brew install thefuck)
-- yabai (https://github.com/koekeishiya/yabai)
-- MesloLGS Nerd Font Mono (font, install via homebrew.)
+This repository contains configs for the following packages/dependencies:
+
+- Oh My ZSH
+- Alacritty
+- JankyBorders
+- btop
+- cava
+- fastfetch
+- skhd
+- SketchyBar
+- thefuck
+- yabai
+
 
 Optional:
 - Raycast
