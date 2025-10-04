@@ -26,7 +26,7 @@ Let it do its thing, then install these packages:
 - skhd (brew install koekeishiya/formulae/skhd)
 - thefuck (brew install thefuck)
 - yabai (https://github.com/koekeishiya/yabai)
-- a nerd font which i forgot the name of, yes im stupid (either jetbrains or firacode, install via homebrew)
+- MesloLGS Nerd Font Mono (font, install via homebrew.)
 
 Optional:
 - Raycast
