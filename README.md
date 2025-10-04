@@ -27,16 +27,16 @@ After that, clone this repository and replace your existing dotfiles with mine.
 
 **Configured Packages**
 
-Oh My Zsh
-Alacritty
-JankyBorders
-btop
-cava
-fastfetch
-skhd
-SketchyBar
-thefuck
-yabai
+- Oh My Zsh
+- Alacritty
+- JankyBorders
+- btop
+- cava
+- fastfetch
+- skhd
+- SketchyBar
+- thefuck
+- yabai
 
 **Optional Packages**
 
