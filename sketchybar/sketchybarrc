@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# Define directories
+PLUGIN_DIR="$CONFIG_DIR/plugins"
+ITEM_DIR="$CONFIG_DIR/items"
+
+# Colors
+BAR_COLOR=0xff161821
+ITEM_BG_COLOR=0xff1a1b26
+ITEM_LABEL_COLOR=0xffc0caf5
+ITEM_ICON_COLOR=0xff7aa2f7
+
+# Bar Appearance
+bar=(
+  color=$BAR_COLOR
+  position=top
+  height=40
+  padding_left=0
+  padding_right=0
+  corner_radius=0
+)
+
+sketchybar --bar "${bar[@]}"
+
+# Defaults
+default=(
+  background.color=$ITEM_BG_COLOR
+  icon.color=$ITEM_ICON_COLOR
+  label.color=$ITEM_LABEL_COLOR
+  padding_left=5
+  padding_right=5
+  icon.font="Hack Nerd Font:Bold:17.0"
+  label.font="Hack Nerd Font:Bold:14.0"
+  background.corner_radius=5
+  background.height=26
+  icon.padding_left=10
+  icon.padding_right=4
+  label.padding_left=4
+  label.padding_right=10
+)
+
+sketchybar --default "${default[@]}"
+
+# Source item configs in order
+source "$ITEM_DIR/apple.sh"
+source "$ITEM_DIR/cpu.sh"
+source "$ITEM_DIR/battery.sh"
+source "$ITEM_DIR/clock.sh"
+source "$ITEM_DIR/calendar.sh"
+source "$ITEM_DIR/spotify.sh"
+
+# Finalizing setup
+sketchybar --update
