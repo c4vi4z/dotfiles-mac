@@ -1,16 +1,13 @@
 #!/bin/bash
 
-# Define directories
 PLUGIN_DIR="$CONFIG_DIR/plugins"
 ITEM_DIR="$CONFIG_DIR/items"
 
-# Colors
 BAR_COLOR=0xff161821
 ITEM_BG_COLOR=0xff1a1b26
 ITEM_LABEL_COLOR=0xffc0caf5
 ITEM_ICON_COLOR=0xff7aa2f7
 
-# Bar Appearance
 bar=(
   color=$BAR_COLOR
   position=top
@@ -22,7 +19,6 @@ bar=(
 
 sketchybar --bar "${bar[@]}"
 
-# Defaults
 default=(
   background.color=$ITEM_BG_COLOR
   icon.color=$ITEM_ICON_COLOR
@@ -41,7 +37,6 @@ default=(
 
 sketchybar --default "${default[@]}"
 
-# Source item configs in order
 source "$ITEM_DIR/apple.sh"
 source "$ITEM_DIR/cpu.sh"
 source "$ITEM_DIR/battery.sh"
